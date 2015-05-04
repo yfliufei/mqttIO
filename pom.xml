@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.mqtt.io</groupId>
+	<artifactId>mqtt.io</artifactId>
+	<version>0.0.1</version>
+
+	<name>mqtt.io</name>
+	<url>http://maven.apache.org</url>
+    <modules>
+        <module>mqtt-library</module>
+        <module>mqtt-master</module>
+    </modules>
+     <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+               <groupId>io.netty</groupId>
+               <artifactId>netty-all</artifactId>
+               <version>4.0.19.Final</version>
+               <scope>compile</scope>
+           </dependency>
+    </dependencies>
+</project>
